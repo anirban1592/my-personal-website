@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #0a0a0f;
+  --color-brand-surface: #0d1117;
+  --color-brand-cyan: #00d4ff;
+  --color-brand-blue: #0066ff;
+  --color-brand-muted: #8892a4;
+  --color-brand-text: #e2e8f0;
+  --font-family-sans: 'Inter', sans-serif;
+  --font-family-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0a0f;
+  color: #e2e8f0;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.glass {
+  background: rgba(13, 17, 23, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.grid-bg-animated {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-bg-animated::before,
+.grid-bg-animated::after {
+  content: '';
+  position: absolute;
+  inset: -100%;
+  background-image:
+    linear-gradient(rgba(0, 212, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  animation: gridScroll 20s linear infinite;
+  pointer-events: none;
+}
+
+.grid-bg-animated::after {
+  background-image:
+    linear-gradient(rgba(0, 102, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 102, 255, 0.03) 1px, transparent 1px);
+  background-size: 80px 80px;
+  animation: gridScroll 28s linear infinite reverse;
+}
+
+@keyframes gridScroll {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(60px, 60px); }
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #00d4ff, #0066ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.scan-line-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.scan-line-card::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 212, 255, 0.03) 50%,
+    transparent 100%
+  );
+  transition: top 0.6s ease;
+  pointer-events: none;
+}
+
+.scan-line-card:hover::after {
+  top: 100%;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.float-1 { animation: float 3s ease-in-out infinite; }
+.float-2 { animation: float 3.5s ease-in-out infinite 0.5s; }
+.float-3 { animation: float 4s ease-in-out infinite 1s; }
+.float-4 { animation: float 3.2s ease-in-out infinite 1.5s; }
+.float-5 { animation: float 3.8s ease-in-out infinite 0.8s; }
+.float-6 { animation: float 4.2s ease-in-out infinite 0.3s; }
