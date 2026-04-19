@@ -3,18 +3,18 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
 
 const taglines = [
-  'Architecting Cloud-Native Commerce at Scale',
-  'Turning AI/ML into Revenue',
-  '11 Years of Digital Transformation',
+  '11 Years of B2B Commerce Transformation',
+  'SAP Commerce Cloud & Composable Architecture',
+  'AI-Driven Automation at Enterprise Scale',
 ];
 
 const chips = [
-  { label: 'AWS', cls: 'float-1' },
-  { label: 'Shopify Plus', cls: 'float-2' },
-  { label: 'Salesforce CC', cls: 'float-3' },
-  { label: 'Kubernetes', cls: 'float-4' },
-  { label: 'AI/ML', cls: 'float-5' },
-  { label: 'MACH', cls: 'float-6' },
+  { label: 'SAP Commerce', cls: 'float-1' },
+  { label: 'Azure', cls: 'float-2' },
+  { label: 'AWS', cls: 'float-3' },
+  { label: 'SAP BTP', cls: 'float-4' },
+  { label: 'Kafka', cls: 'float-5' },
+  { label: 'AI Agents', cls: 'float-6' },
 ];
 
 export default function Hero() {
@@ -101,7 +101,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-brand-muted mb-6 font-medium">
-            Ecommerce Solution Architect
+            Principal Consultant · Cloud Platforms · AI Agent Design
           </p>
 
           {/* Typing tagline */}

@@ -1,56 +1,47 @@
 export const timeline = [
   {
-    year: '2023',
-    role: 'Senior Ecommerce Solution Architect',
-    company: 'Publicis Sapient',
-    location: 'Bengaluru, India',
+    year: '2022 – Present',
+    role: 'Senior eCommerce Consultant & Architect',
+    company: 'Sonata Software',
+    location: 'Hatfield, UK',
     description:
-      'Led architecture for Fortune 500 retail clients migrating to MACH-based headless commerce. Designed cloud-native order management systems processing 2M+ transactions/day.',
-    tags: ['MACH', 'Shopify Plus', 'AWS', 'Headless'],
+      'Primary technical contact for 70+ enterprise clients across US, EU, and UK. Lead 6 cross-functional delivery teams and directly manage 15 engineers. Conceptualised and delivered a business-critical Order History Management System integrating 10+ upstream/downstream systems. Enabled multi-country platform support across 8 countries — recognised by client with formal accolades.',
+    tags: ['SAP Commerce', 'Salesforce', 'SAP BTP', 'B2B', 'Team Leadership'],
   },
   {
-    year: '2021',
-    role: 'Lead Solution Architect',
-    company: 'Capgemini',
-    location: 'Bengaluru, India',
+    year: '2019 – 2022',
+    role: 'Technical Lead',
+    company: 'Sonata Software',
+    location: 'Hatfield, UK',
     description:
-      'Architected Salesforce Commerce Cloud rollouts for enterprise retailers across APAC. Introduced AI-powered recommendation engine that lifted revenue by 18%.',
-    tags: ['Salesforce CC', 'AI/ML', 'GCP', 'Microservices'],
+      'Directed end-to-end on-prem to SAP Commerce Cloud (CCv2) migration, including the business-critical transfer of 10M+ price records — expedited through targeted source-and-destination scaling. Oversaw contact and customer data ERP migrations ensuring data integrity across complex, multi-region environments.',
+    tags: ['SAP CCv2', 'Cloud Migration', 'ERP Integration', 'Azure'],
   },
   {
-    year: '2019',
-    role: 'Ecommerce Technology Consultant',
+    year: '2018 – 2019',
+    role: 'Senior Consultant',
+    company: 'Sonata Software',
+    location: 'Bangalore, India',
+    description:
+      'Owned full-stack implementation of 4+ eCommerce modules for TetraPak, notably architecting a from-scratch checkout flow and spearheading heavy Apigee API integration across the cart ecosystem. Gained hands-on exposure to BigCommerce through API-driven product variant development.',
+    tags: ['SAP Commerce', 'Apigee API', 'BigCommerce', 'Full-Stack'],
+  },
+  {
+    year: '2017 – 2018',
+    role: 'Associate Consultant',
+    company: 'ThyssenKrupp',
+    location: 'Mumbai, India',
+    description:
+      'Created an Order Helper Chatbot enabling real-time order status retrieval for 1,000+ daily users. Implemented API integrations supporting user management and backoffice customisation. Completed Hybris platform upgrade from 5.0 to 6.0 in 3 weeks, doubling testing time and reducing migration risk.',
+    tags: ['Hybris', 'Chatbot', 'API Integration', 'Backoffice'],
+  },
+  {
+    year: '2015 – 2017',
+    role: 'Systems Engineer',
     company: 'Infosys',
     location: 'Pune, India',
     description:
-      'Delivered SAP Commerce Cloud implementations for global B2B manufacturers. Defined integration patterns for ERP, PIM, and OMS systems.',
-    tags: ['SAP Commerce', 'B2B', 'ERP', 'Azure'],
-  },
-  {
-    year: '2017',
-    role: 'Senior Software Engineer',
-    company: 'Wipro',
-    location: 'Hyderabad, India',
-    description:
-      'Built scalable backend services for high-traffic e-retail platforms. Introduced event-driven architecture reducing checkout latency by 40%.',
-    tags: ['Java', 'Kafka', 'Microservices', 'Docker'],
-  },
-  {
-    year: '2015',
-    role: 'Software Engineer',
-    company: 'TCS',
-    location: 'Kolkata, India',
-    description:
-      'Developed Magento 2 extensions and REST API integrations for mid-market retailers. Owned performance optimization initiatives reducing page load by 2s.',
-    tags: ['Magento 2', 'PHP', 'REST APIs', 'MySQL'],
-  },
-  {
-    year: '2014',
-    role: 'Junior Developer',
-    company: 'Accenture',
-    location: 'Kolkata, India',
-    description:
-      'Started career building frontend components and backend APIs for e-commerce portals. Gained foundational expertise in agile delivery and digital commerce patterns.',
-    tags: ['JavaScript', 'Java', 'Agile', 'E-commerce'],
+      'Engineered and maintained key platform modules for Reliance Jio including login, checkout, order returns, and cockpit customisation. Built strong foundational expertise in Java and enterprise ecommerce engineering.',
+    tags: ['Java', 'SAP Commerce', 'Hybris', 'Enterprise'],
   },
 ];

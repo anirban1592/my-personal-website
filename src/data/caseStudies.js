@@ -2,39 +2,39 @@ import { TrendingUp, Zap, Brain } from 'lucide-react';
 
 export const caseStudies = [
   {
-    id: 'headless-replatform',
-    Icon: TrendingUp,
-    title: 'Headless Commerce Replatform',
-    client: 'Global Fashion Retailer',
-    tags: ['Shopify Plus', 'Next.js', 'AWS', 'GraphQL'],
-    problem:
-      'Monolithic platform unable to handle 10x traffic spikes during peak sales; 8s page load times causing 45% cart abandonment.',
-    solution:
-      'Architected MACH-based headless stack with Shopify Plus storefront API, Next.js SSR/ISR, CloudFront edge caching, and decoupled OMS via event-driven microservices.',
-    impact: '$12M incremental revenue in Year 1 · 3s → 0.8s page load · 60% drop in cart abandonment',
-  },
-  {
-    id: 'ai-personalization',
+    id: 'order-history-management',
     Icon: Brain,
-    title: 'AI-Powered Personalization Engine',
-    client: 'APAC Electronics Brand',
-    tags: ['AWS SageMaker', 'Salesforce CC', 'Python', 'Kafka'],
+    title: 'B2B Order History Management System',
+    client: 'Computacenter (via Sonata Software)',
+    tags: ['SAP Commerce', 'Salesforce', 'SAP ERP', 'Track & Trace'],
     problem:
-      'Generic product recommendations driving less than 2% CTR. No unified customer data layer across web, app, and in-store channels.',
+      'No unified order data view for 70+ enterprise clients across US, EU, and UK. Order data was fragmented across SAP, Track & Trace, and multiple legacy sources with no consolidated backbone.',
     solution:
-      'Built real-time ML recommendation engine on SageMaker, unified customer profiles via CDP integration, and deployed A/B testing framework for continuous model improvement.',
-    impact: '18% revenue uplift · CTR 2% → 9.4% · 340ms recommendation latency at scale',
+      'Conceptualised and led end-to-end delivery of a central Order History Management System, consolidating data from SAP, Track & Trace, and legacy sources into a single integration backbone connected to 10+ upstream and downstream systems including Salesforce.',
+    impact: '70+ enterprise clients served · 8 countries on a single platform · Client recognised delivery with formal accolades',
   },
   {
-    id: 'b2b-marketplace',
-    Icon: Zap,
-    title: 'B2B Digital Commerce Platform',
-    client: 'Industrial Manufacturer (Europe)',
-    tags: ['SAP Commerce', 'Azure', 'ERP Integration', 'DDD'],
+    id: 'ccv2-cloud-migration',
+    Icon: TrendingUp,
+    title: 'SAP Commerce Cloud (CCv2) Migration',
+    client: 'Computacenter (via Sonata Software)',
+    tags: ['SAP CCv2', 'Azure', 'ERP Migration', 'Cloud Architecture'],
     problem:
-      'Legacy EDI-based ordering causing 3-day fulfillment delays and 30% order error rates. Sales team spending 60% of time on manual order processing.',
+      'On-prem SAP Commerce platform constrained scalability and resilience. Migration of 10M+ live price records posed a major delivery risk to the programme timeline.',
     solution:
-      'Designed domain-driven SAP Commerce Cloud B2B portal with real-time ERP/PIM sync, self-service quoting engine, and automated approval workflows.',
-    impact: '3-day → 4-hour fulfillment · 30% → 2% error rate · $2.1M annual ops savings',
+      'Directed the full on-prem to CCv2 migration end-to-end. Applied targeted source-and-destination scaling to expedite the 10M+ price record transfer, and oversaw contact and customer data ERP migrations across complex multi-region environments.',
+    impact: '87% improvement in platform availability · 50% reduction in operational overhead · 10M+ price records migrated with zero data loss',
+  },
+  {
+    id: 'b2b-automation-chatbot',
+    Icon: Zap,
+    title: 'B2B eCommerce Automation & AI Chatbot',
+    client: 'ThyssenKrupp (via Sonata Software)',
+    tags: ['Hybris', 'Apigee API', 'Chatbot', 'Backoffice'],
+    problem:
+      'Manual order status lookups consuming staff capacity across 1,000+ daily users. Legacy backoffice had no real-time order visibility and Hybris platform was running on an end-of-life 5.0 version.',
+    solution:
+      'Built an Order Helper Chatbot delivering autonomous real-time order status retrieval. Implemented API integrations for user management and heavy backoffice customisation. Completed Hybris 5.0 to 6.0 platform upgrade in 3 weeks with doubled testing coverage to reduce migration risk.',
+    impact: 'Chatbot serving 1,000+ daily users autonomously · Hybris upgrade completed in 3 weeks · Doubled test coverage during platform migration',
   },
 ];

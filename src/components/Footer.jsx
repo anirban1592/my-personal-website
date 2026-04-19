@@ -22,7 +22,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
           <p className="text-gradient-cyan font-bold text-lg font-mono">Anirban Das</p>
-          <p className="text-brand-muted text-sm mt-1">Ecommerce Solution Architect</p>
+          <p className="text-brand-muted text-sm mt-1">Principal Consultant · Cloud Platforms · AI Agent Design</p>
         </div>
 
         <div className="flex items-center gap-5">
