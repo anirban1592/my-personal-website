@@ -36,7 +36,7 @@ export default function Footer() {
             <LinkedinIcon size={20} />
           </a>
           <a
-            href="https://github.com/anirban-das"
+            href="https://github.com/anirban1592"
             target="_blank"
             rel="noopener noreferrer"
             className="text-brand-muted hover:text-brand-cyan transition-colors"
