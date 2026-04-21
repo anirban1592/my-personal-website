@@ -123,7 +123,7 @@ export default function Hero() {
               <ArrowRight size={16} />
             </a>
             <a
-              href="/resume.pdf"
+              href="/AnirbanDasResume-VML-V1.pdf"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm border border-brand-cyan/40 text-brand-cyan hover:border-brand-cyan hover:bg-brand-cyan/5 transition-all duration-200"
               download
             >
